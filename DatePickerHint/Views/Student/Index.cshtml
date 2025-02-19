@@ -1,0 +1,37 @@
+﻿@model IEnumerable<DatePickerHint.Models.Student>
+
+<h1>All Students</h1>
+
+<p>
+    <a href="@Url.Action("Create", "Student")">Add New Student</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Age</th>
+            <th>GPA</th>
+            <th>Program</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.LastName</td>
+                <td>@student.FirstName</td>
+                <td>@student.Age</td>
+                <td>@student.GPA</td>
+                <td>@(student.Program != null ? student.Program.Name : "No Program Assigned")</td>
+
+                <td>
+                    <a href="@Url.Action("Edit", "Student", new { id = student.StudentId })">Edit</a> |
+                    <a href="@Url.Action("Delete", "Student", new { id = student.StudentId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

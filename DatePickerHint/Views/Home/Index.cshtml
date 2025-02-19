@@ -1,0 +1,20 @@
+﻿@model Person
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--
+    Steps:
+    - add jqueryui library
+    - Add jqueryui refs (i.e. CSS & JS) in _Layout  (I kind of like the Redmond theme)
+    - setup a form with a datetime input field
+    - associate the jqueryui datepicker component with all input fields of type date
+         + I usually goto datepicker documentation to know how to configure it
+-->
+@{
+    ViewData["Title"] = "Home";
+}
+<h1>Welcome to the Student Tracker</h1>
+<p><a asp-controller="Student" asp-action="Index">View All Students</a></p>
+<p><a asp-controller="Student" asp-action="Create">Add a New Student</a></p>

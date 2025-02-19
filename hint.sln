@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerHint", "DatePickerHint\DatePickerHint.csproj", "{A2FC64DD-5F0A-4520-9984-F2A5E6E136F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FC64DD-5F0A-4520-9984-F2A5E6E136F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FC64DD-5F0A-4520-9984-F2A5E6E136F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FC64DD-5F0A-4520-9984-F2A5E6E136F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FC64DD-5F0A-4520-9984-F2A5E6E136F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC3307A6-A068-4E7E-AFE8-5902AE70F2E5}
+	EndGlobalSection
+EndGlobal
